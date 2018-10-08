@@ -1,0 +1,102 @@
+
+.image-2-3 {
+    background-color: red;
+    position: relative;
+    width: 100%;
+    padding-top: 66%; /* 4:3 Aspect Ratio */
+}
+
+.item-image {
+    padding: 1px;
+}
+
+.item-two1 {
+    padding: 0px;
+}
+
+.div-image {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    text-align: center;
+    font-size: 20px;
+    color: white;
+}
+
+.feat-text {
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    position: absolute;
+    text-align: left;
+    padding: 10px;
+}
+
+.small .feat-text a {
+    font-size: 14px;
+    color: white;
+}
+
+.big .feat-text a {
+    font-size: 18px;
+    color: white;
+}
+
+.big .feat-text span {
+    font-size: 12px;
+    color: white;
+}
+
+.img-aspect-ratio {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.leftRs {
+    position: absolute;
+    margin: auto;
+    top: 0;
+    bottom: 0;
+    width: 35px;
+    height: 35px;
+    border-radius: 999px;
+    left: 15px;
+    box-shadow: 1px 2px 10px -1px rgba(185, 185, 185, 0.07);
+    background-color: rgba(255, 255, 255, 0.84) !important;
+    border: none;
+}
+
+/*.ngitem:hover .rightRs {
+    display: block;
+}
+
+.ngitem:hover .leftRs {
+    display: block;
+}*/
+
+.rightRs {
+    position: absolute;
+    margin: auto;
+    top: 0;
+    bottom: 0;
+    width: 35px;
+    height: 35px;
+    box-shadow: 1px 2px 10px -1px rgba(185, 185, 185, 0.07);
+    background-color: rgba(255, 255, 255, 0.84) !important;
+    border: none;
+    border-radius: 999px;
+    right: 15px;
+}
+
+.rightRs:focus{
+    outline:0;
+    cursor: pointer;
+}
+.leftRs:focus{
+    outline:0;
+    cursor: pointer;
+}
